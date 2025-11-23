@@ -1,6 +1,8 @@
-File 1: Customers.csv (Danh sách khách hàng)
-File này chứa 5 khách hàng. Lưu ý khách số 4 và 5 chưa từng mua gì.
-
+# Ghi chú riel cho phần left outer join 
+---
+## File 1: Customers.csv (Danh sách khách hàng)
+*Lưu ý: Khách số 4 và 5 chưa từng mua gì.*
+```csv
 CustomerID,CustomerName,City
 1,Nguyen Van A,Ha Noi
 2,Tran Thi B,TP HCM
@@ -8,8 +10,8 @@ CustomerID,CustomerName,City
 4,Pham Thi D,Can Tho
 5,Hoang Van E,Hai Phong
 
-File 2: Orders.csv (Danh sách đơn hàng)
-File này chứa các giao dịch. Lưu ý đơn hàng 1005 có CustomerID là 99 (Khách này không tồn tại trong bảng Customers -> Đây là dữ liệu lỗi để test Right Anti).
+## File 2: Orders.csv (Danh sách đơn hàng)
+- File này chứa các giao dịch. Lưu ý đơn hàng 1005 có CustomerID là 99
 
 OrderID,CustomerID,Date,Amount
 1001,1,2024-01-01,500000
@@ -18,7 +20,6 @@ OrderID,CustomerID,Date,Amount
 1004,3,2024-01-12,800000
 1005,99,2024-01-20,100000
 
-thực hiện đủ 6 loại join cho 2 bảng này
 (1) LEFT OUTER JOIN 
 Giữ toàn bộ dữ liệu từ bảng bên trái (trước), lấy thêm phần khớp từ các phần khớp với bảng bên phải (JOIN bên sql thì mặc định hai table () phải có cột attribute giống nhau còn gì).
 - Join theo cột CustomerID, xong sẽ cho ra kết quả giống trong ảnh result.png
