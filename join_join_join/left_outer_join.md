@@ -1,0 +1,1 @@
+Giữ toàn bộ dữ liệu từ bảng bên trái (trước), lấy thêm phần khớp từ các phần khớp với bảng bên phải (JOIN bên sql thì mặc định hai table () phải có cột attribute giống nhau còn gì).

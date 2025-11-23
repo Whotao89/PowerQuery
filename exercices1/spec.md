@@ -17,4 +17,4 @@ Nhiệm vụ Power Query: Hãy tìm cách chuyển cột đó về dạng số (
 - Ê không phải, việc Data format bị error là do engine chọn 15 làm tháng à đề xuất: format tay :v, do dữ liệu cũng chưa chuẩn khu vực lắm.
 - à Đổi **Data Type** thành **Date** || **Change Type** -> **Using Locale** -> Chọn **Vietnamese**.
 
-**Xài tool nên khá dễ.**
+**Xài tool cho một bài tập đơn giản nên khá dế.**
